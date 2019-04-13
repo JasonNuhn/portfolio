@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade'
 
 class Footer extends Component { 
 
     render () {
         return (
-            <div>
+            <div >
+              <Fade top>
           <br></br>
             <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
           <br></br>
@@ -14,6 +16,7 @@ class Footer extends Component {
           </a>
           <br></br>
             <a href="https://github.com/JasonNuhn"> <i class="fab fa-github"></i></a>
+              </Fade>
             </div>
         )
     }
