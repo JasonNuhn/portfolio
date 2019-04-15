@@ -7,7 +7,7 @@ class Work extends Component {
             <div>
               <Fade top>
             <h1>Projects</h1>
-              <div class="ui card">
+  
                 <a
             href="https://www.paperstack.pro/"
             target="_blank"
@@ -18,8 +18,7 @@ class Work extends Component {
           <p>
           Was part of the team building a full stack invoicing application. I was in charge of back end development building the API using Express.js and Node.js. Unit testing was done by Test-Driven Development using Jest. I had connected the backend to MongoDB and hosted on mLab. On the front end, I had set up payment page where people could purchase this product using Stripe Element.
           </p>
-          </div>
-          <div class="ui card">
+
           <a
             href="https://ccdhhdb.work/"
             target="_blank"
@@ -30,8 +29,7 @@ class Work extends Component {
           <p>
           Was part of the web-development team building a full stack application using Meteor. The application along with MongoDB was deployed and hosted on NodeChef. The codebase was managed on GitLab. Communication between teammates was done on Slack, Zoom and emails. I was responsible for DevOps, reporting feature using DataTable. I also created forms to allow user to input data which would be sent up to MongoDB when submitted.
           </p>
-          </div>
-          <div class="ui card">
+
           <a
             href="https://trialcolorisp.herokuapp.com/"
             target="_blank"
@@ -62,7 +60,7 @@ class Work extends Component {
           <p>
           A Hackathon idea for a team to build An app that allows friends to connect with each other through their busy schedules.
           </p> */}
-              </div>
+    
               </Fade>
             </div>
         )

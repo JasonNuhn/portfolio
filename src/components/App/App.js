@@ -1,32 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import Particles from 'react-particles-js'
 import './App.css';
 
 import Header from '../Header'
 import Footer from '../footer'
 import About from '../about'
 import Work from '../work'
+import ParticleComponent from "../particles";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
+        <ParticleComponent />
         <Header />
         <About />
         <Work />
-        {/* <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Hello World!
-          </a>
-        </header> */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
