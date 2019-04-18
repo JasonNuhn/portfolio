@@ -5,8 +5,8 @@ class About extends Component {
         render () {
             return (
                 <div>
-                    <Fade top>
-                    <h3>As a former Accountant, out goes the sales invoices, processing bills and reconciling bank accounts. Retained the detail-oriented, problem-solving in me as well as having the desire to learn new technologies to build new and exciting applications that benefit your bottom line.</h3>
+                    <Fade left>
+                    <h3>As a former Accountant, out goes the sales invoices, processing bills and reconciling bank accounts. Retained the detail-oriented, problem-solving in me as well as having the desire to learn new technologies to build new and exciting applications.</h3>
                     <h2><b>Favorite Quote:</b><br></br><i>There is no royal road to a successful life, as there is no royal road to learning.  It has got to be hard knocks, morning, noon, and night, and fixity of purpose.</i></h2>
                     <h2>Skills</h2>
                     <p>Technologies Used</p>
@@ -24,7 +24,6 @@ class About extends Component {
                     <li>Access</li>
                     <li>Excel</li>
                     <li>Visual Basic for Application</li>
-
                     </Fade>
                 </div>
             )

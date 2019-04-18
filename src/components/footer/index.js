@@ -6,7 +6,7 @@ class Footer extends Component {
     render () {
         return (
             <div >
-              <Fade top>
+              <Fade bottom>
           <br></br>
             <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
           <br></br>
