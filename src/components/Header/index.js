@@ -14,6 +14,9 @@ export default class Header extends Component {
                 <div >
               <Fade left>
               <div className="header-header" ref={element => this.threeRootElement = element} />
+              <div style={{display: 'flex', justifyContent: 'center'}}>
+                <h1>Jason Nuhn</h1>
+              </div>
               </Fade>
             </div>
         );
