@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+/* a {
+    margin: 10px;
+} */
+
+p {
+    margin-top: 5px;
+    margin: 20px;
+    border-style: ridge;
+    padding: 25px;
+    border: solid 5px #808080
+}
+
+a {
+    margin: 20px;
+}
