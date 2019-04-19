@@ -38,9 +38,9 @@ class About extends Component {
                             </Container>
                         </Jumbotron>
                         {/* <h2><b>Favorite Quote:</b><br></br><i>There is no royal road to a successful life, as there is no royal road to learning.  It has got to be hard knocks, morning, noon, and night, and fixity of purpose.</i></h2> */}
-                        <Row style={divStyle}>
+                        <Row>
                         <Col sm="6">
-                        <Card body>
+                        <Card body style={divStyle}>
                             <CardHeader align="center" size="lg"><b>Programming Languages</b></CardHeader>
                             
                                 <CardText>JavaScript<br></br>
@@ -49,7 +49,7 @@ class About extends Component {
                         </Card>
                         </Col>
                         <Col sm="6">
-                        <Card body>
+                        <Card body style={divStyle}>
                             <CardHeader align="center" size="lg"><b>JavaScript Framework</b></CardHeader>
                             
                                 <CardText>Node.js<br></br>
@@ -58,9 +58,9 @@ class About extends Component {
                         </Card>
                         </Col>
                         </Row>
-                        <Row style={divStyle}>
-                            <Col sm="6">
-                            <Card body>
+                        <Row>
+                        <Col sm="6">
+                        <Card body style={divStyle}>
                                 <CardHeader align="center" size="lg"><b>Libraries</b></CardHeader>
                                 
                                     <CardText>React<br></br>
@@ -68,8 +68,8 @@ class About extends Component {
                                     jQuery</CardText>
                             </Card>
                             </Col>
-                        <Col sm="6">
-                            <Card body>
+                            <Col sm="6">
+                        <Card body style={divStyle}>
                                 <CardHeader align="center" size="lg"><b>Databases</b></CardHeader>
                                 
                                     <CardText>MongoDB<br></br>
@@ -78,9 +78,9 @@ class About extends Component {
                             </Card>
                         </Col>
                         </Row>
-                        <Row style={divStyle}>
-                            <Col sm="12" md={{ size: 6, offset: 3 }}>
-                                <Card body>
+                        <Row>
+                            <Col sm="6" md={{ size: 6, offset: 3 }}>
+                                <Card body style={divStyle}>
                                     <CardHeader align="center" size="lg"><b>Web Technologies</b></CardHeader>
                                     
                                         <CardText>HTML5<br></br>
