@@ -22,10 +22,11 @@ class About extends Component {
                                 <h1>Jason Nuhn</h1>
                                 
                                 <CardHeader align="center">
-                                    <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
-                                    <a href="https://www.linkedin.com/in/jasonnuhn/"> <i class="fab fa-linkedin"></i></a>
                                     <a href="mailto:jason.a.nuhn@gmail.com"> <i class="far fa-envelope"></i></a>
+                                    <a href="https://www.linkedin.com/in/jasonnuhn/"> <i class="fab fa-linkedin"></i></a>
                                     <a href="https://github.com/JasonNuhn"> <i class="fab fa-github"></i></a>
+                                    <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
+                                    
                                 </CardHeader>
                                 
                                 <hr></hr>
