@@ -14,8 +14,20 @@ import {
 import './work.css';
 
 const divStyle = {
-  margin: "5px"
+  margin: "5px",
+  backgroundColor: "#ec7f37"
 };
+
+const divHeader = {
+  backgroundColor: "#393939",
+  color: 'white', 
+  margin: "5px",
+  fontWeight: 'bold'
+}
+
+const divCard = {
+  backgroundColor: 'white'
+}
 
 class Work extends Component {
   render() {
@@ -24,23 +36,23 @@ class Work extends Component {
         <Fade left>
           <Jumbotron fluid>
             <Container>
-              <h1>Projects</h1>
+              <h1 style={divHeader}>Projects</h1>
             </Container>
           </Jumbotron>
           <Row>
 
           <Col sm="6">
           <Card body style={divStyle}>
-              <CardHeader align="center" size="lg">
-                <b>Paper Stack - Invoicing Management Application</b>
+          <CardHeader align="center" size="lg" style={divHeader}>
+                Paper Stack - Invoicing Management Application
               </CardHeader>
-              <CardText>
+              <CardText style={divCard}>
                 Was part of the team building a full stack invoicing application. I was in charge of back end development building the API using Express.js and Node.js. Unit testing was done by Test-Driven Development using Jest. I had connected the backend to MongoDB and hosted on mLab. On the front end, I had set up payment page where people could purchase this product using Stripe Element.
               </CardText>
                 <a
                   href="https://www.paperstack.pro/"
                   >
-                  <Button color="primary" size="lg" sm="6" block>
+                  <Button size="lg" sm="6" block style={divHeader}>
                     Visit Website
                   </Button>
                 </a>
@@ -48,16 +60,16 @@ class Work extends Component {
             </Col>
             <Col sm="6">
             <Card body style={divStyle}>
-              <CardHeader align="center" size="lg">
-                <b>Outreach - Database Management Application</b>
+              <CardHeader align="center" size="lg" style={divHeader}>
+                Outreach - Database Management Application
               </CardHeader>
-              <CardText>
+              <CardText style={divCard}>
                 Was part of the web-development team building a full stack application using Meteor. The application along with MongoDB was deployed and hosted on NodeChef. The codebase was managed on GitLab.  I was responsible for DevOps, reporting feature using DataTable. I also created forms to allow user to input data which would be sent up to MongoDB when submitted.
               </CardText>
                 <a
                   href="https://ccdhhdb.work/"
                   >
-                  <Button color="primary" size="lg" sm="6" block>
+                  <Button size="lg" sm="6" block style={divHeader}>
                     Visit Website
                   </Button>
                 </a>
