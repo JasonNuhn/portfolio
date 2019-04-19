@@ -12,6 +12,10 @@ import {
 
 import './about.css';
 
+const divStyle = {
+    margin: "20px"
+  };
+
 class About extends Component { 
         render () {
             return (
@@ -34,7 +38,7 @@ class About extends Component {
                             </Container>
                         </Jumbotron>
                         {/* <h2><b>Favorite Quote:</b><br></br><i>There is no royal road to a successful life, as there is no royal road to learning.  It has got to be hard knocks, morning, noon, and night, and fixity of purpose.</i></h2> */}
-                        <Row>
+                        <Row style={divStyle}>
                         <Col sm="6">
                         <Card body>
                             <CardHeader align="center" size="lg"><b>Programming Languages</b></CardHeader>
@@ -54,7 +58,7 @@ class About extends Component {
                         </Card>
                         </Col>
                         </Row>
-                        <Row>
+                        <Row style={divStyle}>
                             <Col sm="6">
                             <Card body>
                                 <CardHeader align="center" size="lg"><b>Libraries</b></CardHeader>
@@ -74,7 +78,7 @@ class About extends Component {
                             </Card>
                         </Col>
                         </Row>
-                        <Row>
+                        <Row style={divStyle}>
                             <Col sm="12" md={{ size: 6, offset: 3 }}>
                                 <Card body>
                                     <CardHeader align="center" size="lg"><b>Web Technologies</b></CardHeader>
