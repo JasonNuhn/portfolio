@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade'
 
+import {
+  Container
+} from 'reactstrap'
+
 class Footer extends Component { 
 
     render () {
         return (
             <div >
               <Fade bottom>
-              Copyright @ 2019 Jason Nuhn
+                <Container align="center">
+                  <b>
+                  Copyright @ 2019 Jason Nuhn
+                  </b>
+                </Container>
           {/* <br></br>
             <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
           <br></br>

@@ -6,7 +6,9 @@ import {
   Card,
   CardText,
   Row,
-  CardHeader
+  CardHeader,
+  Jumbotron,
+  Container
 } from 'reactstrap'
 
 import './work.css';
@@ -16,7 +18,11 @@ class Work extends Component {
     return (
       <div>
         <Fade left>
-          <h1>Projects</h1>
+          <Jumbotron fluid>
+            <Container>
+              <h1>Projects</h1>
+            </Container>
+          </Jumbotron>
           <Row>
 
           <Col sm="6">
