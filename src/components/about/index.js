@@ -13,7 +13,7 @@ import {
 import './about.css';
 
 const divStyle = {
-    margin: "20px"
+    margin: "5px"
   };
 
 class About extends Component { 

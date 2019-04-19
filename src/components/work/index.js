@@ -13,6 +13,10 @@ import {
 
 import './work.css';
 
+const divStyle = {
+  margin: "5px"
+};
+
 class Work extends Component {
   render() {
     return (
@@ -26,7 +30,7 @@ class Work extends Component {
           <Row>
 
           <Col sm="6">
-            <Card body>
+          <Card body style={divStyle}>
               <CardHeader align="center" size="lg">
                 <b>Paper Stack - Invoicing Management Application</b>
               </CardHeader>
@@ -43,7 +47,7 @@ class Work extends Component {
             </Card>
             </Col>
             <Col sm="6">
-            <Card body>
+            <Card body style={divStyle}>
               <CardHeader align="center" size="lg">
                 <b>Outreach - Database Management Application</b>
               </CardHeader>
