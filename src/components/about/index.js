@@ -1,5 +1,14 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade'
+import {
+    Jumbotron,
+    Container,
+    Card,
+    CardText,
+    Col,
+    Row,
+    CardHeader
+  } from 'reactstrap'
 
 import './about.css';
 
@@ -8,33 +17,73 @@ class About extends Component {
             return (
                 <div>
                     <Fade left>
-                        <h1>Jason Nuhn</h1>
-                        <h4><i>As a former Accountant, out goes the sales invoices, processing bills and reconciling bank accounts. Retained the detail-oriented, problem-solving in me as well as having the desire to learn new technologies to build new and exciting applications.</i></h4>
+                        <Jumbotron fluid>
+                            <Container>
+                                <h1>Jason Nuhn</h1>
+                                
+                                <CardHeader align="center">
+                                    <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
+                                    <a href="https://www.linkedin.com/in/jasonnuhn/"> <i class="fab fa-linkedin"></i></a>
+                                    <a href="mailto:jason.a.nuhn@gmail.com"> <i class="far fa-envelope"></i></a>
+                                    <a href="https://github.com/JasonNuhn"> <i class="fab fa-github"></i></a>
+                                </CardHeader>
+                                
+                                <hr></hr>
+                                    <h4><i>As a former Accountant, out goes the sales invoices, processing bills and reconciling bank accounts. Retained the detail-oriented, problem-solving in me as well as having the desire to learn new technologies to build new and exciting applications.</i></h4>
+                            </Container>
+                        </Jumbotron>
                         {/* <h2><b>Favorite Quote:</b><br></br><i>There is no royal road to a successful life, as there is no royal road to learning.  It has got to be hard knocks, morning, noon, and night, and fixity of purpose.</i></h2> */}
-                        <h3>Programming Languages</h3>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>Visual Basic for Application</li>
+                        <Row>
+                        <Col sm="6">
+                        <Card body>
+                            <CardHeader align="center" size="lg"><b>Programming Languages</b></CardHeader>
+                            
+                                <CardText>JavaScript<br></br>
+                                Python<br></br>
+                                Visual Basic for Application</CardText>   
+                        </Card>
+                        </Col>
+                        <Col sm="6">
+                        <Card body>
+                            <CardHeader align="center" size="lg"><b>JavaScript Framework</b></CardHeader>
+                            
+                                <CardText>Node.js<br></br>
+                                Express.js<br></br>
+                                Meteor</CardText>
+                        </Card>
+                        </Col>
+                        </Row>
+                        <Row>
+                            <Col sm="6">
+                            <Card body>
+                                <CardHeader align="center" size="lg"><b>Libraries</b></CardHeader>
+                                
+                                    <CardText>React<br></br>
+                                    Redux<br></br>
+                                    jQuery</CardText>
+                            </Card>
+                            </Col>
+                        <Col sm="6">
+                            <Card body>
+                                <CardHeader align="center" size="lg"><b>Databases</b></CardHeader>
+                                
+                                    <CardText>MongoDB<br></br>
+                                    PostgreSQL<br></br>
+                                    SQLite</CardText>
+                            </Card>
+                        </Col>
+                        </Row>
+                        <Row>
+                            <Col sm="12" md={{ size: 6, offset: 3 }}>
+                                <Card body>
+                                    <CardHeader align="center" size="lg"><b>Web Technologies</b></CardHeader>
+                                    
+                                        <CardText>HTML5<br></br>
+                                        CSS3</CardText>
+                                </Card>
+                            </Col>
+                        </Row>
                         
-                        <h3>JavaScript Framework</h3>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>Meteor</li>
-                            <li>Next.js</li>
-                        
-                        <h3>Web Technologies</h3>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                        
-                        <h3>Libraries</h3>
-                            <li>React</li>
-                            <li>Redux</li>
-                            <li>jQuery</li>
-
-                        <h3>Databases</h3>
-                            <li>MongoDB</li>
-                            <li>PostgreSQL</li>
-                            <li>SQLite</li>
                     </Fade>
                 </div>
             )

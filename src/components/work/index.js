@@ -4,9 +4,9 @@ import {
   Button,
   Col,
   Card,
-  CardTitle,
   CardText,
-  Row
+  Row,
+  CardHeader
 } from 'reactstrap'
 
 import './work.css';
@@ -21,16 +21,14 @@ class Work extends Component {
 
           <Col sm="6">
             <Card body>
-              <CardTitle align="center" size="lg">
-                Paper Stack - Invoicing Management Application
-              </CardTitle>
+              <CardHeader align="center" size="lg">
+                <b>Paper Stack - Invoicing Management Application</b>
+              </CardHeader>
               <CardText>
                 Was part of the team building a full stack invoicing application. I was in charge of back end development building the API using Express.js and Node.js. Unit testing was done by Test-Driven Development using Jest. I had connected the backend to MongoDB and hosted on mLab. On the front end, I had set up payment page where people could purchase this product using Stripe Element.
               </CardText>
                 <a
                   href="https://www.paperstack.pro/"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   >
                   <Button color="primary" size="lg" sm="6" block>
                     Visit Website
@@ -40,16 +38,14 @@ class Work extends Component {
             </Col>
             <Col sm="6">
             <Card body>
-              <CardTitle align="center" size="lg">
-                Outreach - Database Management Application
-              </CardTitle>
+              <CardHeader align="center" size="lg">
+                <b>Outreach - Database Management Application</b>
+              </CardHeader>
               <CardText>
                 Was part of the web-development team building a full stack application using Meteor. The application along with MongoDB was deployed and hosted on NodeChef. The codebase was managed on GitLab.  I was responsible for DevOps, reporting feature using DataTable. I also created forms to allow user to input data which would be sent up to MongoDB when submitted.
               </CardText>
                 <a
                   href="https://ccdhhdb.work/"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   >
                   <Button color="primary" size="lg" sm="6" block>
                     Visit Website

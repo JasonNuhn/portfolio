@@ -7,7 +7,8 @@ class Footer extends Component {
         return (
             <div >
               <Fade bottom>
-          <br></br>
+              Copyright @ 2019 Jason Nuhn
+          {/* <br></br>
             <a href="https://medium.com/@jason.a.nuhn"> <i class="fab fa-medium"></i></a>
           <br></br>
             <a href="https://www.linkedin.com/in/jasonnuhn/"> <i class="fab fa-linkedin"></i></a>
@@ -15,7 +16,7 @@ class Footer extends Component {
           <a href="mailto:jason.a.nuhn@gmail.com"> <i class="far fa-envelope"></i>
           </a>
           <br></br>
-            <a href="https://github.com/JasonNuhn"> <i class="fab fa-github"></i></a>
+            <a href="https://github.com/JasonNuhn"> <i class="fab fa-github"></i></a> */}
               </Fade>
             </div>
         )
